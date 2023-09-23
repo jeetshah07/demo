@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Question from './Question.js';
 import Result from './Result.js';
+import "./quiz.css";
 
 // Function to shuffle an array (Fisher-Yates algorithm).
 function shuffleArray(array) {

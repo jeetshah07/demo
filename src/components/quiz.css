@@ -1,0 +1,40 @@
+/* quiz.css (or your custom CSS file) */
+
+/* Center-align the entire quiz content */
+.Question {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: #f0f0f0; /* Set the background color as desired */
+  padding: 20px; /* Adjust padding as needed */
+}
+
+/* Style the question text */
+.Question .question-text {
+  font-size: 18px; /* Set the font size as desired */
+  margin-bottom: 10px; /* Add spacing between question and options */
+}
+
+/* Style the answer options */
+.Question .answer-option {
+  font-size: 16px; /* Set the font size as desired */
+  padding: 5px 10px; /* Adjust padding as needed */
+  margin: 5px; /* Add spacing between options */
+  background-color: #ffffff; /* Set the background color for options */
+  border: 1px solid #ccc; /* Add a border around options */
+  border-radius: 5px; /* Round the corners of options */
+  cursor: pointer; /* Show a pointer cursor when hovering over options */
+}
+
+/* Style the selected answer option */
+.Question .answer-option.selected {
+  background-color: #007bff; /* Set the background color for selected options */
+  color: #ffffff; /* Set the text color for selected options */
+}
+
+/* Add hover effect to answer options */
+.Question .answer-option:hover {
+  background-color: #ddd; /* Change background color on hover */
+}
